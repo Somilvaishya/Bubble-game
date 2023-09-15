@@ -14,7 +14,7 @@ function newHit() {
 
 function makebubble() {
   var clutter = '';
-  for (var i = 1; i < 160; i++) {
+  for (var i = 1; i < 320; i++) {
     var ran = Math.floor(Math.random() * 10);
     clutter += `<div class="bubble">${ran}</div>`;
   }
